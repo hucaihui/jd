@@ -1,0 +1,40 @@
+mybatis:
+  type-aliases-package: com.hch.demo.entity
+  mapper-locations: classpath:mapper/*.xml
+
+spring:
+  datasource:
+    url: jdbc:mysql://39.107.70.152:3306/order_info?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: A13218343010
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    druid:
+      #监控统计的stat,以及防sql注入的wall
+      filters: stat,wall
+      #Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
+      aop-patterns: com.web.springbootdruid.service.*
+      #开启统计
+      web-stat-filter:
+        enabled: true
+        #添加过滤规则
+        url-pattern: /*
+        #忽略过滤的格式
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
+        # 是否能够重置数据
+      #启用监控页面
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        reset-enable: false
+        login-password: root
+        login-username: root
+        allow: 127.0.0.1
+        deny:
+
+
+server:
+  port: 9100
+  tomcat:
+    uri-encoding: utf-8

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hch.demo.dao.GoodsDao">
+
+    <resultMap type="com.hch.demo.entity.Goods" id="GoodsMap">
+        <result property="sku" column="sku" jdbcType="VARCHAR"/>
+        <result property="descInfo" column="desc_info" jdbcType="VARCHAR"/>
+        <result property="articleNo" column="article_no" jdbcType="VARCHAR"/>
+        <result property="color" column="color" jdbcType="VARCHAR"/>
+        <result property="size" column="size" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="GoodsMap">
+        select
+          sku, desc_info, article_no, color, size, price
+        from order_info.goods
+        where sku = #{sku}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="GoodsMap">
+        select
+          sku, desc_info, article_no, color, size, price
+        from order_info.goods
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="GoodsMap">
+        select
+          sku, desc_info, article_no, color, size, price
+        from order_info.goods
+        <where>
+            <if test="sku != null and sku != ''">
+                and sku = #{sku}
+            </if>
+            <if test="descInfo != null and descInfo != ''">
+                and desc_info = #{descInfo}
+            </if>
+            <if test="articleNo != null and articleNo != ''">
+                and article_no = #{articleNo}
+            </if>
+            <if test="color != null and color != ''">
+                and color = #{color}
+            </if>
+            <if test="size != null and size != ''">
+                and size = #{size}
+            </if>
+            <if test="price != null">
+                and price = #{price}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="sku" useGeneratedKeys="true">
+        insert into order_info.goods(sku,desc_info, article_no, color, size, price)
+        values (#{sku},#{descInfo}, #{articleNo}, #{color}, #{size}, #{price})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update order_info.goods
+        <set>
+            <if test="descInfo != null and descInfo != ''">
+                desc_info = #{descInfo},
+            </if>
+            <if test="articleNo != null and articleNo != ''">
+                article_no = #{articleNo},
+            </if>
+            <if test="color != null and color != ''">
+                color = #{color},
+            </if>
+            <if test="size != null and size != ''">
+                size = #{size},
+            </if>
+            <if test="price != null">
+                price = #{price},
+            </if>
+        </set>
+        where sku = #{sku}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from order_info.goods where sku = #{sku}
+    </delete>
+
+    <select id="count">
+        select count(sku) from order_info.goods
+    </select>
+</mapper>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b718a685-b19b-45c3-8154-5d6c19720f9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bfuAZm2X8qoIJxANVspfULRO2r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.jdBuyMask">
+    <configuration name="AreaTool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jdBuyMask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AreaTool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jdBuyMask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jdBuyMask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jdBuyMask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.jdBuyMask" />
+        <item itemvalue="Python.AreaTool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b718a685-b19b-45c3-8154-5d6c19720f9c" name="Default Changelist" comment="" />
+      <created>1589035327093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589035327093</updated>
+      <workItem from="1589035333492" duration="1314000" />
+      <workItem from="1589071364757" duration="1589000" />
+      <workItem from="1589285102304" duration="5395000" />
+      <workItem from="1590031568847" duration="3157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="25" key="#AreaTool" timestamp="1589035383436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="25" key="#AreaTool/0.0.1536.824@0.0.1536.824" timestamp="1589035383436" />
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state width="1493" height="123" key="GridCell.Tab.0.center" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state width="1493" height="123" key="GridCell.Tab.0.left" timestamp="1589296723810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589296723810" />
+    <state width="1493" height="123" key="GridCell.Tab.0.right" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state width="1493" height="123" key="GridCell.Tab.1.bottom" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state width="1493" height="123" key="GridCell.Tab.1.center" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state width="1493" height="123" key="GridCell.Tab.1.left" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state width="1493" height="123" key="GridCell.Tab.1.right" timestamp="1589296723811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589296723811" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1589035391732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589035391732" />
+    <state x="447" y="150" width="642" height="524" key="find.popup" timestamp="1590032682263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="150" width="642" height="524" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1590032682263" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jdBuyMask.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jdBuyMask$AreaTool.coverage" NAME="AreaTool Coverage Results" MODIFIED="1589036312929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jdBuyMask$jdBuyMask.coverage" NAME="jdBuyMask Coverage Results" MODIFIED="1589286800313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

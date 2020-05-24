@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hch.demo.dao.ShopDao">
+
+    <resultMap type="com.hch.demo.entity.Shop" id="ShopMap">
+        <result property="shopNo" column="shop_no" jdbcType="INTEGER"/>
+        <result property="shopName" column="shop_name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ShopMap">
+        select
+          shop_no, shop_name
+        from order_info.shop
+        where shop_no = #{shopNo}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ShopMap">
+        select
+          shop_no, shop_name
+        from order_info.shop
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="ShopMap">
+        select
+          shop_no, shop_name
+        from order_info.shop
+        <where>
+            <if test="shopNo != null">
+                and shop_no = #{shopNo}
+            </if>
+            <if test="shopName != null and shopName != ''">
+                and shop_name = #{shopName}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="shopNo" useGeneratedKeys="true">
+        insert into order_info.shop(shop_no,shop_name)
+        values (#{shopNo},#{shopName})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update order_info.shop
+        <set>
+            <if test="shopName != null and shopName != ''">
+                shop_name = #{shopName},
+            </if>
+        </set>
+        where shop_no = #{shopNo}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from order_info.shop where shop_no = #{shopNo}
+    </delete>
+
+</mapper>

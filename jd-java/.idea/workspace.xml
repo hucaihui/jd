@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6708f6d-cb1a-406e-a2fd-83d00ae4ff47" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/develop/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1bXMtdh44sjrTeqlO9ymG16xibz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringbootMaillDemo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.AccountConfigurable" />
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="JUnit.DemomailApplicationTests.contextLoads">
+    <configuration name="ResoverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.ResoverDemo" />
+      <module name="jd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo01" />
+      <module name="jd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemomailApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demomail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.horse.demomail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.horse.demomail" />
+      <option name="MAIN_CLASS_NAME" value="com.horse.demomail.DemomailApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemomailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demomail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.horse.demomail.DemomailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemomailApplicationTests.contextLoads" />
+        <item itemvalue="Application.ResoverDemo" />
+        <item itemvalue="Application.demo01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.18510929" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tale@39.107.70.152" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tale@39.107.70.152" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@8d1e7a1" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tale@39.107.70.152" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@e1170c6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tale@39.107.70.152" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@d1efd55" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tale@39.107.70.152" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5ae5b80e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6708f6d-cb1a-406e-a2fd-83d00ae4ff47" name="Default Changelist" comment="" />
+      <created>1588774201095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588774201095</updated>
+      <workItem from="1588774204317" duration="1549000" />
+      <workItem from="1588815958828" duration="8699000" />
+      <workItem from="1588904309588" duration="15258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="143" key="#Project_Structure" timestamp="1588774241334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="143" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588774241334" />
+    <state x="600" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588819278649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="600" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588819278649" />
+    <state x="676" y="47" key="FileChooserDialogImpl" timestamp="1588930281828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="676" y="47" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588930281828" />
+    <state width="1186" height="225" key="GridCell.Tab.0.bottom" timestamp="1588940379759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588940379759" />
+    <state width="1186" height="225" key="GridCell.Tab.0.center" timestamp="1588940379759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588940379759" />
+    <state width="1186" height="225" key="GridCell.Tab.0.left" timestamp="1588940379759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588940379759" />
+    <state width="1186" height="225" key="GridCell.Tab.0.right" timestamp="1588940379759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588940379759" />
+    <state width="1186" height="225" key="GridCell.Tab.1.bottom" timestamp="1588940379755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588940379755" />
+    <state width="1186" height="225" key="GridCell.Tab.1.center" timestamp="1588940379754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588940379754" />
+    <state width="1186" height="225" key="GridCell.Tab.1.left" timestamp="1588940379754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588940379754" />
+    <state width="1186" height="225" key="GridCell.Tab.1.right" timestamp="1588940379754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1186" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588940379754" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1588819324892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1588819324892" />
+    <state x="576" y="122" key="Maven.ArtifactSearchDialog" timestamp="1588930354547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="576" y="122" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1588930354547" />
+    <state x="535" y="55" key="NewModule_or_Project.wizard" timestamp="1588930283663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="55" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1588930283663" />
+    <state x="397" y="0" width="996" height="713" key="SettingsEditor" timestamp="1588930287116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="0" width="996" height="713" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588930287116" />
+    <state x="599" y="109" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1588819229158">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="109" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1588819229158" />
+    <state x="499" y="177" key="extract.method.dialog" timestamp="1588816590203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1588816590203" />
+    <state x="0" y="45" key="new project wizard" timestamp="1588774232623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="45" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588774232623" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588905799594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588905799594" />
+  </component>
+</project>

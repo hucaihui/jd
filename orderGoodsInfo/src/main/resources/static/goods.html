@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商品管理</title>
+	<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./plugins/adminLTE/css/AdminLTE.css">
+	<link rel="stylesheet" href="./plugins/adminLTE/css/skins/_all-skins.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript"  src="./plugins/jQuery/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript"  src="./plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./plugins/angularjs/angular.min.js"></script>
+
+	<!--
+		1)angular库文件引入
+
+		2)创建一个ng-app模块,页面指定标签需要绑定使用该模块
+
+
+		3)创建方法实现后台查询-JSON-PageInfo<T>
+
+		4)页面取出数据循环操作
+
+		5)分页引用
+	-->
+	<!--引入js-->
+	<script type="text/javascript"  src="./plugins/angularjs/angular.min.js"></script>
+
+	<!--分页插件引入-->
+	<script type="text/javascript"  src="./plugins/angularjs/pagination.js"></script>
+	<link rel="stylesheet" href="./plugins/angularjs/pagination.css">
+
+	<script type="text/javascript"  src="./js/base_pagination.js"></script>
+    <script type="text/javascript" src="./js/service/goodsService.js"></script>
+	<script type="text/javascript"  src="./js/controller/goodsController.js"></script>
+
+
+
+    
+</head>
+<body ng-app="hch" ng-controller="goodsController" ng-init="getPage(1,10)" class="hold-transition skin-red sidebar-mini">
+  <!-- .box-body -->
+                    <div class="box-header with-border">
+                        <h3 class="box-title">商品管理</h3>
+                    </div>
+
+                    <div class="box-body">
+
+                        <!-- 数据表格 -->
+                        <div class="table-box">
+
+                            <!--工具栏-->
+                            <div class="pull-left">
+                                <div class="form-group form-inline">
+                                    <div class="btn-group">
+                                        <button type="button" ng-click="entity={}" class="btn btn-default" title="新建" data-toggle="modal" data-target="#editModal" ><i class="fa fa-file-o"></i> 新建</button>
+                                        <button type="button" ng-click="delete()" class="btn btn-default" title="删除" ><i class="fa fa-trash-o"></i> 删除</button>
+                                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i class="fa fa-refresh"></i> 刷新</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-tools pull-right">
+                                <div class="has-feedback">
+                                    商品名称：<input ng-model="searchEntity.name">
+                                    商品首字母：<input ng-model="searchEntity.firstChar">
+                                    <button ng-click="getPage(1,10)" class="btn btn-default">查询</button>
+                                </div>
+                            </div>
+                            <!--工具栏/-->
+
+			                  <!--数据列表-->
+			                  <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
+			                      <thead>
+			                          <tr>
+			                              <th class="" style="padding-right:0px">
+			                                  <input id="selall" type="checkbox" class="icheckbox_square-blue">
+			                              </th>
+										  <th class="sorting_asc">sku</th>
+                                          <!--<th class="text-center">链接</th>-->
+										  <th class="text-center">描述</th>
+										  <th class="text-center">规格</th>
+										  <th class="text-center">颜色规格</th>
+										  <th class="text-center">尺寸</th>
+			                          </tr>
+			                      </thead>
+			                      <tbody>
+
+			                          <tr ng-repeat="item in list">
+			                              <td><input ng-click="updateSelection($event,item.id)" type="checkbox" ></td>
+										  <td><a href="https://item.jd.com/{{item.sku}}.html" target="_blank">{{item.sku}}</a></td>
+										  <!--<td> https://item.jd.com/{{item.sku}}.html</a> </td>-->
+										  <td>{{item.descInfo}}</td>
+										  <td>{{item.articleNo}}</td>
+										  <td>{{item.color}}</td>
+										  <td>{{item.size}}</td>
+
+		                                  <td class="text-center">
+											  <!--
+											  	在angularjs指令中不能使用{{}}
+											  -->
+		                                 	  <button type="button" ng-click="findOne(item.sku)" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal"  >修改</button>
+		                                  </td>
+			                          </tr>
+
+			                      </tbody>
+			                  </table>
+			                  <!--数据列表/-->
+
+							<!--分页-->
+							<tm-pagination conf="paginationConf"></tm-pagination>
+							 
+                        </div>
+                        <!-- 数据表格 /-->
+                        
+
+                        
+                     </div>
+                    <!-- /.box-body -->
+         
+<!-- 编辑窗口 -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">商品编辑</h3>
+		</div>
+		<div class="modal-body">		
+			<table class="table table-bordered table-striped"  width="800px">
+		      	<tr>
+		      		<td>sku</td>
+		      		<td><input ng-model="entity.sku" class="form-control" placeholder="sku" >  </td>
+		      	</tr>		      	
+		      	<tr>
+		      		<td>描述</td>
+		      		<td><input ng-model="entity.descInfo" class="form-control" placeholder="描述">  </td>
+		      	</tr>
+				<tr>
+					<td>规格</td>
+					<td><input ng-model="entity.articleNo" class="form-control" placeholder="规格">  </td>
+				</tr>
+				<tr>
+					<td>颜色规格</td>
+					<td><input ng-model="entity.color" class="form-control" placeholder="颜色规格">  </td>
+				</tr>
+				<tr>
+					<td>尺寸</td>
+					<td><input ng-model="entity.size" class="form-control" placeholder="尺寸">  </td>
+				</tr>
+				<tr>
+					<td>修改密码</td>
+					<td><input ng-model="password" id="updateGoodsPassword" class="form-control" placeholder="密码">  </td>
+				</tr>
+			</table>
+		</div>
+		<div class="modal-footer">						
+			<button class="btn btn-success" ng-click="save()" data-dismiss="modal" aria-hidden="true">保存</button>
+			<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+		</div>
+	  </div>
+	</div>
+</div>
+   
+</body>
+</html>

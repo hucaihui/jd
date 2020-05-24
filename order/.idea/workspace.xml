@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d94fad7-d2ea-4d2f-8653-9f96103961ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bpYK7FatHVZqLZ8C9n0hTlt6fj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hucai\Desktop\t\order\test" />
+      <recent name="C:\Users\hucai\Desktop\t\order\cookie" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.jingfeng">
+    <configuration name="encodeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/encodeTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getOrderInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getOrderInfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jingfeng" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hucai\Desktop\jd\order\jf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="monitor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/monitor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.jingfeng" />
+        <item itemvalue="Python.monitor" />
+        <item itemvalue="Python.stock" />
+        <item itemvalue="Python.encodeTest" />
+        <item itemvalue="Python.getOrderInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d94fad7-d2ea-4d2f-8653-9f96103961ac" name="Default Changelist" comment="" />
+      <created>1589330435600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589330435600</updated>
+      <workItem from="1589330440092" duration="36323000" />
+      <workItem from="1589727628023" duration="2981000" />
+      <workItem from="1589764854099" duration="33028000" />
+      <workItem from="1589813256374" duration="639000" />
+      <workItem from="1589857685767" duration="14027000" />
+      <workItem from="1589882502167" duration="1185000" />
+      <workItem from="1590029783847" duration="18288000" />
+      <workItem from="1590070093737" duration="4450000" />
+      <workItem from="1590107058994" duration="14955000" />
+      <workItem from="1590136997215" duration="11230000" />
+      <workItem from="1590198700497" duration="3283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589331815911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589331815911" />
+    <state x="811" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590125082881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="811" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590125082881" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589769927738">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589769927738" />
+    <state width="520" height="466" key="DebuggerActiveHint" timestamp="1589333782998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="520" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1589333782998" />
+    <state width="1198" height="187" key="GridCell.Tab.0.bottom" timestamp="1590216681910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1198" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590216681910" />
+    <state width="1198" height="187" key="GridCell.Tab.0.center" timestamp="1590216681910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1198" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590216681910" />
+    <state width="1198" height="187" key="GridCell.Tab.0.left" timestamp="1590216681910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1198" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590216681910" />
+    <state width="1198" height="187" key="GridCell.Tab.0.right" timestamp="1590216681910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1198" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590216681910" />
+    <state width="1493" height="194" key="GridCell.Tab.1.bottom" timestamp="1589882329044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589882329044" />
+    <state width="1493" height="194" key="GridCell.Tab.1.center" timestamp="1589882329044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589882329044" />
+    <state width="1493" height="194" key="GridCell.Tab.1.left" timestamp="1589882329044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589882329044" />
+    <state width="1493" height="194" key="GridCell.Tab.1.right" timestamp="1589882329044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589882329044" />
+    <state x="540" y="109" key="SettingsEditor" timestamp="1589330543054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589330543054" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1589333781073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1589333781073" />
+    <state x="612" y="234" width="782" height="590" key="find.popup" timestamp="1590198872760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="612" y="234" width="782" height="590" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1590198872760" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590148973936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590148973936" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/order$encodeTest.coverage" NAME="encodeTest Coverage Results" MODIFIED="1590129331875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/order$config.coverage" NAME="config Coverage Results" MODIFIED="1589792610954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$testTheadPoolExector.coverage" NAME="testTheadPoolExector Coverage Results" MODIFIED="1589355408905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$httpUtil.coverage" NAME="httpUtil Coverage Results" MODIFIED="1589875949177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$test.coverage" NAME="test Coverage Results" MODIFIED="1589795302567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$monitor.coverage" NAME="monitor Coverage Results" MODIFIED="1590148727383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1589875348954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/order$util.coverage" NAME="util Coverage Results" MODIFIED="1589768237745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$stock.coverage" NAME="stock Coverage Results" MODIFIED="1590144832744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$login.coverage" NAME="login Coverage Results" MODIFIED="1589803814784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$show.coverage" NAME="show Coverage Results" MODIFIED="1589354007506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$main.coverage" NAME="main Coverage Results" MODIFIED="1589331823176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$GetOrderInfo.coverage" NAME="GetOrderInfo Coverage Results" MODIFIED="1589792615335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$getOrderInfo.coverage" NAME="getOrderInfo Coverage Results" MODIFIED="1589882242881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$testSql.coverage" NAME="testSql Coverage Results" MODIFIED="1589882239084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/order$jingfeng.coverage" NAME="jingfeng Coverage Results" MODIFIED="1590199331559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

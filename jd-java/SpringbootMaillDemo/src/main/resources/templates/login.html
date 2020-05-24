@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>邮箱注册登陆Demo</title>
+</head>
+<body>
+
+<div class="py-5" style="background: #f9f9f9;">
+    <!-- Page Title -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="">邮箱注册登陆Demo</h2>
+            </div>
+        </div>
+    </div>
+    <!--  Register form -->
+    <div class="login pt-5" style="width: 320px;">
+        <div class="card p-3" style="background: #fff">
+            <div class="form" name="sendForm">
+                <div class="form-group">
+                    <input type="email" class="radius" name="email" id="emailAd"  placeholder="邮箱">
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="sendMessage()" id="sendCode" class="btn btn-primary">免费获取验证码</button>
+                </div>
+            </div>
+            <form method="post" action="">
+                <div class="form-group">
+                    <input type="text" class="radius" name="email" id="email"  placeholder="登陆邮箱">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="radius" id="code" name="code"  placeholder="验证码">
+                </div>
+
+                <div class="form-group ">
+                    <button type="button" onclick="tologin()" class="btn btn-primary">登陆</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script type="text/javascript" src="/js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript">
+
+
+    function sendMessage()
+    {
+        var emailAd=document.getElementById("emailAd");
+        if(emailAd.value=="")
+        {
+            alert("邮箱不能为空");
+            return ;
+        }
+        var email_reg=/^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+        if(!email_reg.test(emailAd.value))
+        {
+            alert("请输入正确的邮箱地址");
+            return ;
+        }
+        $.get("/getCode",{"email":emailAd.value},function (data) {
+            if(data.success)
+            {
+                var wait = 60;
+                var button=document.getElementById("sendCode");
+                (function time(o) {
+                    if (wait == 0) {
+                        o.disabled=false;
+                        o.innerHTML = "免费获取验证码";
+                        wait = 60;
+                    } else {
+                        o.disabled=true;
+                        o.innerHTML = wait + "秒后可以重新发送";
+                        wait--;
+                        setTimeout(function() {
+                            time(o)
+                        }, 1000)
+                    }
+                })(button);
+            }
+        });
+    }
+
+    function tologin()
+    {
+        var email=document.getElementById("email");
+        var code=document.getElementById("code");
+        if(code.value=="")
+        {
+            alert("验证码不能为空");
+            return ;
+        }
+        $.get("/tologin",{"email":email.value,"code":code.value},function (data) {
+            if (data){
+                window.location.href = "/admin";
+            }
+        });
+    }
+</script>
+</body>
+</html>

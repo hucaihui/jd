@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringbootMaillDemo/demomail.iml" filepath="$PROJECT_DIR$/SpringbootMaillDemo/demomail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd/jd.iml" filepath="$PROJECT_DIR$/jd/jd.iml" />
+    </modules>
+  </component>
+</project>
